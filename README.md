@@ -1,23 +1,24 @@
-instagram-autolikes
+instagram-autolikes 3.0
 ===================
 
 instagram auto likes php script
 
 This is a php script that auto likes certain tags on instagram after that you login.
+Will allow you to search for pictures using tags, access your pictures and also generate html code below pictures and videos.
 
 Installation tips:
 ===================
 
 You need to setup an application using instagram api.
-The callback file should be http://[your website]/[instalation directory]/cb.php
 
+Replace the callback (http://www.ultgate.com/instagram2/cb.php) in  file instagram 2.0/cb.php 
+
+The callback file should be http://[your website]/[instalation directory]/cb.php
 setting up the api
 ===================
 Files that you need to setup the api informations in :
-cb.php
-/includes/userinfo.php
-/includes/opencon.php
-/includes/con1.php
+
+/includes/instaconfig.php
 
 renaming the files
 ===================
@@ -43,4 +44,4 @@ with the following fields with their corresponding attributes :
   congratulation
   ===================
   congratulation the script is setup and ready to be used :)
-  for questions/bugs contact me on jad@ultgate.com
+  for questions/bugs contact me on jad@ultgate.com or twitter on @jadismael
