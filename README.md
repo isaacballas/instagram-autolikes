@@ -1,4 +1,4 @@
-instagram-autolikes 3.0
+instagram-autolikes 2.0
 ===================
 
 instagram auto likes php script
