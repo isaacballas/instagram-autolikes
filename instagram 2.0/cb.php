@@ -31,13 +31,13 @@ setcookie('ulttoken',$data->access_token ,time() + (86400 * 7)); // 86400 = 1 da
 
 
 
- echo '<META HTTP-EQUIV="Refresh" Content="0; URL=http://www.ultgate.com/instagram2/">';    
+ echo '<META HTTP-EQUIV="Refresh" Content="0; URL=http://www.ballerboy.com/instagram2/">';    
     exit;    
   
 }
 else {
         $instagram->setAccessToken($_COOKIE['ulttoken']);
-    echo '<META HTTP-EQUIV="Refresh" Content="0; URL=http://www.ultgate.com/instagram2/">';    
+    echo '<META HTTP-EQUIV="Refresh" Content="0; URL=http://www.ballerboy.com/instagram2/">';    
     exit;   
 
 
